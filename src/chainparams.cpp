@@ -102,10 +102,10 @@ public:
         base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
         vSeeds.push_back(CDNSSeedData("1",  "node1.ethereumcash.io"));
-        vSeeds.push_back(CDNSSeedData("2",  "node1.ethereumcash.io"));
-        vSeeds.push_back(CDNSSeedData("3",  "node1.ethereumcash.io"));
-        vSeeds.push_back(CDNSSeedData("4",  "node1.ethereumcash.io"));
-        vSeeds.push_back(CDNSSeedData("5",  "node1.ethereumcash.io"));
+        vSeeds.push_back(CDNSSeedData("2",  "node2.ethereumcash.io"));
+        vSeeds.push_back(CDNSSeedData("3",  "node3.ethereumcash.io"));
+        vSeeds.push_back(CDNSSeedData("4",  "node4.ethereumcash.io"));
+        vSeeds.push_back(CDNSSeedData("5",  "node5.ethereumcash.io"));
         convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 
         nPoolMaxTransactions = 3;
