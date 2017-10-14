@@ -16,7 +16,7 @@ EthereumCash is a project which was created in January 2017, launched by a group
   <li>Algorith : SHA256</li>
   <li>Total Coin Supply : 100 Million</li>
   <li>Premine : 15% (15 Million)</li>
-  <li>Masternode Rewards : 60%</li>
+  <li>Masternode Rewards : %</li>
   <li>Stake : 10 ETHC</li>
   <li>Minimum Stake Age : 8 hours</li>
   <li>Number of confirmation : 10</li>
